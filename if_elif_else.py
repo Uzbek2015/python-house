@@ -22,7 +22,7 @@ print()
 
 good_credit = True
 bad_credit = False
-if good_credit and int((criminal_report) == 'no') and int(score) => 640:
+if good_credit and int((criminal_report) == 'no') and int(score) >= 640:
     print('           CONGRATULATIONS!!!')
     print('           You are approved!!')
     print('credit score is ' + score)
