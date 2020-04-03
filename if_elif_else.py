@@ -22,14 +22,14 @@ print()
 
 good_credit = True
 bad_credit = False
-if good_credit and int((criminal_report) == 'no') and 640 >= int(score) <= 800:
+if good_credit and int((criminal_report) == 'no') and int(score) => 640:
     print('           CONGRATULATIONS!!!')
     print('           You are approved!!')
     print('credit score is ' + score)
     print('good credit score and no criminal reports')
     print('you need to put down 10%')
     print('which is $' + str(good_report))
-elif bad_credit or int((criminal_report) == 'yes') or 500 <= int(score) < 640:
+elif bad_credit or int((criminal_report) == 'yes') or int(score) < 640:
     print('           CONGRATULATIONS!!!')
     print('           You are approved!!')
     print('Your credit score is ' + score)
