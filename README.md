@@ -1,6 +1,5 @@
 # python-house
 buying house
-
 print()
 print()
 print('   Ziyotek bank is looking for home buyers')
